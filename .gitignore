@@ -1,7 +1,8 @@
 
-# Ignore all directories, only within the directory
+# Ignore all directories, but not all files, only within the directory
 # to wit: ignore all directories in this root level
 # (This is better than just ignoring all directories eveywhere,
 #  because if I un-ignore a dir, then its children are
 #  automatically un-ignored as well)
+!*
 /*/
