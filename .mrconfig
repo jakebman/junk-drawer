@@ -3,3 +3,6 @@ update = echo "Skipping this update, because it's in the junk drawer $*"
 
 [git]
 checkout = git clone --depth 1 'git@github.com:git/git.git' 'git'
+
+[spring-framework]
+checkout = git clone --depth 1 'git@github.com:spring-projects/spring-framework.git' 'spring-framework'
