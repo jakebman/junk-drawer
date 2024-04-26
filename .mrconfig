@@ -17,3 +17,63 @@ checkout = git clone --depth 1 'git@github.com:microsoft/devhome.git' 'devhome'
 
 [TIL-secretgeek]
 checkout = git clone --depth 1 'git@github.com:secretGeek/today-i-learned-staging.git' 'TIL-secretgeek'
+
+[baeldung-tutorials]
+checkout = git clone --depth 1 'https://github.com/eugenp/tutorials.git' 'baeldung-tutorials'
+
+[bash]
+checkout = git clone --depth 1 'https://git.savannah.gnu.org/git/bash.git' 'bash'
+
+[bat]
+checkout = git clone --depth 1 'git@github.com:sharkdp/bat.git' 'bat'
+
+[bitbucket-cli]
+checkout = git clone --depth 1 'git@github.com:swisscom/bitbucket-cli.git' 'bitbucket-cli'
+
+[content_inspector]
+checkout = git clone --depth 1 'git@github.com:sharkdp/content_inspector.git' 'content_inspector'
+
+[draft-shared-persistence-lib]
+checkout = git clone --depth 1 'git@gitlab.spectrumflow.net:jboeckerman/draft-shared-persistence-lib.git' 'draft-shared-persistence-lib'
+
+[extras-for-bat]
+checkout = git clone --depth 1 'git@github.com:eth-p/bat-extras.git' 'extras-for-bat'
+
+[fzf]
+checkout = git clone --depth 1 'git@github.com:junegunn/fzf.git' 'fzf'
+
+[git-extras]
+checkout = git clone --depth 1 'git@github.com:jakebman/git-extras.git' 'git-extras'
+
+[git-vendor]
+checkout = git clone --depth 1 'git@github.com:Tyrben/git-vendor.git' 'git-vendor'
+
+[grace-framework]
+checkout = git clone --depth 1 'git@github.com:graceframework/grace-framework.git' 'grace-framework'
+
+[libgit2]
+checkout = git clone --depth 1 'git@github.com:libgit2/libgit2.git' 'libgit2'
+
+[mailcap]
+checkout = git clone --depth 1 'https://salsa.debian.org/debian/mailcap.git' 'mailcap'
+
+[maven]
+checkout = git clone --depth 1 'git@github.com:apache/maven.git' 'maven'
+
+[meeting.coach-lambda]
+checkout = git clone --depth 1 'git@gitlab.spectrumflow.net:jboeckerman/meeting.coach-lambda.git' 'meeting.coach-lambda'
+
+[pre-commit-hooks]
+checkout = git clone --depth 1 'git@github.com:jumanjihouse/pre-commit-hooks.git' 'pre-commit-hooks'
+
+[procps]
+checkout = git clone --depth 1 'git@gitlab.com:procps-ng/procps.git' 'procps'
+
+[sdkman-website]
+checkout = git clone --depth 1 'git@github.com:sdkman/sdkman-website.git' 'sdkman-website'
+
+[terminal]
+checkout = git clone --depth 1 'git@github.com:microsoft/terminal.git' 'terminal'
+
+[vcsh]
+checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
