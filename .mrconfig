@@ -33,9 +33,6 @@ checkout = git clone --depth 1 'git@github.com:swisscom/bitbucket-cli.git' 'bitb
 [content_inspector]
 checkout = git clone --depth 1 'git@github.com:sharkdp/content_inspector.git' 'content_inspector'
 
-[draft-shared-persistence-lib]
-checkout = git clone --depth 1 'git@gitlab.spectrumflow.net:jboeckerman/draft-shared-persistence-lib.git' 'draft-shared-persistence-lib'
-
 [extras-for-bat]
 checkout = git clone --depth 1 'git@github.com:eth-p/bat-extras.git' 'extras-for-bat'
 
@@ -59,9 +56,6 @@ checkout = git clone --depth 1 'https://salsa.debian.org/debian/mailcap.git' 'ma
 
 [maven]
 checkout = git clone --depth 1 'git@github.com:apache/maven.git' 'maven'
-
-[meeting.coach-lambda]
-checkout = git clone --depth 1 'git@gitlab.spectrumflow.net:jboeckerman/meeting.coach-lambda.git' 'meeting.coach-lambda'
 
 [pre-commit-hooks]
 checkout = git clone --depth 1 'git@github.com:jumanjihouse/pre-commit-hooks.git' 'pre-commit-hooks'
