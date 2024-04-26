@@ -1,5 +1,5 @@
 [DEFAULT]
-update = echo "Skipping this update, because it's in the junk drawer $*"
+update = if test -n "$UPDATE_JUNK_DRAWER" ; then git pull "$@"; else echo "Skipping junk drawer project. export UPDATE_JUNK_DRAWER=... mr up to update"; fi
 
 [git]
 checkout = git clone --depth 1 'git@github.com:git/git.git' 'git'
