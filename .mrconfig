@@ -1,6 +1,9 @@
 [DEFAULT]
 update = if test -n "$UPDATE_JUNK_DRAWER" ; then git pull "$@"; else echo "Skipping junk drawer project. export UPDATE_JUNK_DRAWER=... mr up to update"; fi
 
+# NB: use this vim command to add depth 1:
+# :%s/[^]]clone '/clone --depth 1 '/g
+
 [git]
 checkout = git clone --depth 1 'git@github.com:git/git.git' 'git'
 
