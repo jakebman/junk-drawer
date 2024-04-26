@@ -9,3 +9,6 @@ checkout = git clone --depth 1 'git@github.com:spring-projects/spring-framework.
 
 [devhome]
 checkout = git clone --depth 1 'git@github.com:microsoft/devhome.git' 'devhome'
+
+[TIL-secretgeek]
+checkout = git clone --depth 1 'git@github.com:secretGeek/today-i-learned-staging.git' 'TIL-secretgeek'
