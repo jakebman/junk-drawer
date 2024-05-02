@@ -17,3 +17,9 @@ checkout = git clone --depth 1 'git@github.com:microsoft/devhome.git' 'devhome'
 
 [TIL-secretgeek]
 checkout = git clone --depth 1 'git@github.com:secretGeek/today-i-learned-staging.git' 'TIL-secretgeek'
+
+[AntennaPod]
+checkout = git clone 'git@github.com:AntennaPod/AntennaPod.git' 'AntennaPod'
+
+[pygments]
+checkout = git clone 'git@github.com:pygments/pygments.git' 'pygments'
