@@ -1,5 +1,5 @@
 [DEFAULT]
-update = if test -n "$UPDATE_JUNK_DRAWER" ; then git pull --depth 1 "$@"; else echo "Skipping junk drawer project. export UPDATE_JUNK_DRAWER=... mr up to update"; fi
+update = if test -n "$UPDATE_JUNK_DRAWER" ; then git pull --rebase --depth 1 "$@"; else echo "Skipping junk drawer project. export UPDATE_JUNK_DRAWER=... mr up to update"; fi
 
 # NB: use this vim command to add depth 1:
 # (We use the \zs and \ze lookaround to prevent having to duplicate the matched text in the replacement)
