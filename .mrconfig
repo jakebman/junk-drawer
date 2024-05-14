@@ -77,3 +77,6 @@ checkout = git clone --depth 1 'git@github.com:AntennaPod/AntennaPod.git' 'Anten
 
 [pygments]
 checkout = git clone --depth 1 'git@github.com:pygments/pygments.git' 'pygments'
+
+[hibernate-validator]
+checkout = git clone --depth 1 'git@github.com:hibernate/hibernate-validator.git' 'hibernate-validator'
