@@ -80,3 +80,6 @@ checkout = git clone --depth 1 'git@github.com:pygments/pygments.git' 'pygments'
 
 [hibernate-validator]
 checkout = git clone --depth 1 'git@github.com:hibernate/hibernate-validator.git' 'hibernate-validator'
+
+[protobuf-google]
+checkout = git clone --depth 1 'git@github.com:protocolbuffers/protobuf.git' 'protobuf-google'
