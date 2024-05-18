@@ -1,7 +1,8 @@
 [DEFAULT]
 git_update =
 	if test -n "$UPDATE_JUNK_DRAWER" ; then
-		git pull --no-tags --rebase --depth 1 "$@"
+		git pull --no-tags --rebase --depth 1 "$@" ||
+			echo "<Hey, mr - please ignore the git failure above>"
 	else
 		echo "Skipping junk drawer project. export UPDATE_JUNK_DRAWER=... mr up to update"
 	fi
