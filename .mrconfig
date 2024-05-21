@@ -4,7 +4,7 @@ git_update =
 		git pull --no-tags --rebase --depth 1 "$@" ||
 			echo "<Hey, mr - please ignore the git failure above>"
 	else
-		echo "Skipping junk drawer project. export UPDATE_JUNK_DRAWER=... mr up to update"
+		echo "Skipping junk drawer project."
 	fi
 
 # NB: use this vim command to add depth 1:
