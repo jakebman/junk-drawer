@@ -89,3 +89,6 @@ checkout = git clone --depth 1 'git@github.com:hibernate/hibernate-validator.git
 
 [protobuf-google]
 checkout = git clone --depth 1 'git@github.com:protocolbuffers/protobuf.git' 'protobuf-google'
+
+[initializr]
+checkout = git clone --depth 1 'git@github.com:spring-io/initializr.git' 'initializr'
