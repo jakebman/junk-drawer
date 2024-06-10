@@ -2,6 +2,8 @@
 git_update =
 	if test -n "$UPDATE_JUNK_DRAWER" ; then
 		git pull --no-tags --rebase --depth 1 "$@" ||
+			# This command doesn't fully complete, but a retry succeeds :/
+			git pull --no-tags --rebase --depth 1 "$@" ||
 			echo "<Hey, mr - please ignore the git failure above>"
 	else
 		echo "Skipping junk drawer project."
