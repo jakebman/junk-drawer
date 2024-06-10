@@ -92,3 +92,9 @@ checkout = git clone --depth 1 'git@github.com:protocolbuffers/protobuf.git' 'pr
 
 [initializr]
 checkout = git clone --depth 1 'git@github.com:spring-io/initializr.git' 'initializr'
+
+[wsl-docs]
+checkout = git clone 'https://github.com/MicrosoftDocs/WSL.git' 'wsl-docs'
+
+[wsl]
+checkout = git clone 'https://github.com/microsoft/WSL.git' 'wsl'
