@@ -1,8 +1,10 @@
 [DEFAULT]
 git_update =
 	if test -n "$UPDATE_JUNK_DRAWER" ; then
-		git pull --no-tags --rebase --depth 1 "$@" ||
-			# This command doesn't fully complete, but a retry succeeds :/
+		git fetch --no-tags --depth 1 "$@" &&
+			# The pull command doesn't fully complete on its own, but a retry succeeds :/
+			# Pulling the fetch out first seems to succeed, but isn't intuitive
+			# (I'm still doing it so I can have this script work better)
 			# TODO: potentially, before we fix it below, could we diffstat the previous and current heads?
 			git pull --no-tags --rebase --depth 1 "$@" ||
 			echo "<Hey, mr - please ignore the git failure above>"
