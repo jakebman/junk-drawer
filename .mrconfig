@@ -7,7 +7,7 @@ git_update =
 			# The pull command doesn't fully complete on its own, but a retry succeeds :/
 			# Pulling the fetch out first seems to succeed, but isn't intuitive
 			# (I'm still doing it so I can have this script work better)
-			git pull --no-tags --rebase --depth 1 "$@" ||
+			git pull --no-tags --rebase --depth 1 --quiet "$@" ||
 			echo "<Hey, mr - please ignore the git failure above>"
 	else
 		echo "Junk Drawer: Skipping junk drawer project."
