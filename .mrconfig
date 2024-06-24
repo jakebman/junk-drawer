@@ -81,9 +81,6 @@ checkout = git clone --depth 1 'git@github.com:sdkman/sdkman-website.git' 'sdkma
 [terminal]
 checkout = git clone --depth 1 'git@github.com:microsoft/terminal.git' 'terminal'
 
-[vcsh]
-checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
-
 [AntennaPod]
 checkout = git clone --depth 1 'git@github.com:AntennaPod/AntennaPod.git' 'AntennaPod'
 
