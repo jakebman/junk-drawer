@@ -107,3 +107,6 @@ checkout = git clone --depth 1 'git@github.com:capr/multigit.git' 'multigit'
 
 [super-productivity]
 checkout = git clone --depth 1 'git@github.com:johannesjo/super-productivity.git' 'super-productivity'
+
+[git-branchless]
+checkout = git clone --depth 1 'git@github.com:arxanas/git-branchless.git' 'git-branchless'
