@@ -110,3 +110,6 @@ checkout = git clone --depth 1 'git@github.com:johannesjo/super-productivity.git
 
 [git-branchless]
 checkout = git clone --depth 1 'git@github.com:arxanas/git-branchless.git' 'git-branchless'
+
+[nppPluginList]
+checkout = git clone 'git@github.com:notepad-plus-plus/nppPluginList.git' 'nppPluginList'
