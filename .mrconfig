@@ -117,3 +117,6 @@ checkout = git clone --depth 1 'git@github.com:notepad-plus-plus/nppPluginList.g
 
 [googleapis]
 checkout = git clone --depth 1 'git@github.com:googleapis/googleapis.git' 'googleapis'
+
+[google-api-python-client]
+checkout = git clone --depth 1 'git@github.com:googleapis/google-api-python-client.git' 'google-api-python-client'
