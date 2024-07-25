@@ -120,3 +120,6 @@ checkout = git clone --depth 1 'git@github.com:googleapis/googleapis.git' 'googl
 
 [google-api-python-client]
 checkout = git clone --depth 1 'git@github.com:googleapis/google-api-python-client.git' 'google-api-python-client'
+
+[vcsh]
+checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
