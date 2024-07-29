@@ -123,3 +123,6 @@ checkout = git clone --depth 1 'git@github.com:googleapis/google-api-python-clie
 
 [vcsh]
 checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
+
+[wslkit]
+checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
