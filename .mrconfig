@@ -34,6 +34,7 @@ checkout = git clone --depth 1 'git@github.com:secretGeek/today-i-learned-stagin
 [baeldung-tutorials]
 checkout = git clone --depth 1 'git@github.com:eugenp/tutorials.git' 'baeldung-tutorials'
 
+# NB: only the members of this group have ssh access. See https://savannah.gnu.org/git/?group=bash
 [bash]
 checkout = git clone --depth 1 'https://git.savannah.gnu.org/git/bash.git' 'bash'
 
@@ -64,6 +65,8 @@ checkout = git clone --depth 1 'git@github.com:graceframework/grace-framework.gi
 [libgit2]
 checkout = git clone --depth 1 'git@github.com:libgit2/libgit2.git' 'libgit2'
 
+# NB: only members of the debian team can register ssh keys for this project: https://salsa.debian.org/debian/mailcap
+# "Debian Salsa can only be used within its organization"
 [mailcap]
 checkout = git clone --depth 1 'https://salsa.debian.org/debian/mailcap.git' 'mailcap'
 
