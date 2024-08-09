@@ -132,3 +132,6 @@ checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
 
 [session-manager-plugin-aws-cli]
 checkout = git clone --depth 1 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
+
+[jungle]
+checkout = git clone --depth 1 'git@github.com:achiku/jungle.git' 'jungle'
