@@ -135,3 +135,9 @@ checkout = git clone --depth 1 'git@github.com:aws/session-manager-plugin.git' '
 
 [jungle]
 checkout = git clone --depth 1 'git@github.com:achiku/jungle.git' 'jungle'
+
+[aws-sso-util]
+checkout = git clone --depth 1 'git@github.com:benkehoe/aws-sso-util.git' 'aws-sso-util'
+
+[ssh-over-ssm]
+checkout = git clone --depth 1 'git@github.com:elpy1/ssh-over-ssm.git' 'ssh-over-ssm'
