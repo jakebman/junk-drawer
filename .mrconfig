@@ -133,8 +133,10 @@ checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
 [session-manager-plugin-aws-cli]
 checkout = git clone --depth 1 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
 
-[jungle]
-checkout = git clone --depth 1 'git@github.com:achiku/jungle.git' 'jungle'
+[aws-jungle]
+# renamed from [jungle]. Current checkout plan tries to get my work env to save a git clone.
+# TODO: remove this shim some time later
+checkout = mv jungle aws-jungle || git clone --depth 1 'git@github.com:achiku/jungle.git' 'jungle'
 
 [aws-sso-util]
 checkout = git clone --depth 1 'git@github.com:benkehoe/aws-sso-util.git' 'aws-sso-util'
