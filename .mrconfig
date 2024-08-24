@@ -141,3 +141,6 @@ checkout = git clone --depth 1 'git@github.com:benkehoe/aws-sso-util.git' 'aws-s
 
 [ssh-over-ssm]
 checkout = git clone --depth 1 'git@github.com:elpy1/ssh-over-ssm.git' 'ssh-over-ssm'
+
+[txtai]
+checkout = git clone --depth 1 'https://github.com/neuml/txtai.git' 'txtai'
