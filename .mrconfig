@@ -14,6 +14,17 @@ git_update =
 		echo "Junk Drawer: Skipping junk drawer project."
 	fi
 
+# NB: taken directly from mr itself. Modified to add `--depth 1`
+git_register =
+	branch="$(LC_ALL=C git rev-parse --abbrev-ref HEAD 2> /dev/null | grep -v '^HEAD$')" || branch=master
+	remote="$(LC_ALL=C git config --get branch.$branch.remote 2> /dev/null)" || remote=origin
+	url="`LC_ALL=C git config --get "remote.$remote.url"`" || true
+	if [ -z "$url" ]; then
+		error "cannot determine git url"
+	fi
+	echo "Registering git url: $url in $MR_CONFIG"
+	mr -c "$MR_CONFIG" config "`pwd`" checkout="git clone --depth 1 '$url' '$MR_REPO'"
+
 # NB: use this vim command to add depth 1:
 # (We use the \zs and \ze lookaround to prevent having to duplicate the matched text in the replacement)
 # https://vim.fandom.com/wiki/Regex_lookahead_and_lookbehind
