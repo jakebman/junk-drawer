@@ -148,3 +148,6 @@ checkout = git clone --depth 1 'git@github.com:elpy1/ssh-over-ssm.git' 'ssh-over
 
 [txtai]
 checkout = git clone --depth 1 'git@github.com:neuml/txtai.git' 'txtai'
+
+[asdf]
+checkout = git clone --depth 1 'git@github.com:asdf-vm/asdf.git' 'asdf'
