@@ -8,6 +8,7 @@ git_update =
 	fi
 
 # NB: taken directly from mr itself. Modified to add `--depth 1`
+# TODO: does --no-tags make sense?
 git_register = 
 	branch="$(LC_ALL=C git rev-parse --abbrev-ref HEAD 2> /dev/null | grep -v '^HEAD$')" || branch=master
 	remote="$(LC_ALL=C git config --get branch.$branch.remote 2> /dev/null)" || remote=origin
