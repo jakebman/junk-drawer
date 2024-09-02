@@ -1,0 +1,5 @@
+
+
+[bash/*]
+# the bash repo seems to prefer a tabwidth of 8. This is the easiest, cleanest, most non-interfereance way to do that
+indent_size = 8
