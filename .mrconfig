@@ -152,3 +152,6 @@ checkout = git clone --depth 1 'git@github.com:neuml/txtai.git' 'txtai'
 
 [asdf]
 checkout = git clone --depth 1 'git@github.com:asdf-vm/asdf.git' 'asdf'
+
+[awesome-compose]
+checkout = git clone --depth 1 'git@github.com:docker/awesome-compose.git' 'awesome-compose'
