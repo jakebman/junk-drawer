@@ -155,3 +155,6 @@ checkout = git clone --depth 1 'git@github.com:asdf-vm/asdf.git' 'asdf'
 
 [awesome-compose]
 checkout = git clone --depth 1 'git@github.com:docker/awesome-compose.git' 'awesome-compose'
+
+[cpython]
+checkout = git clone --depth 1 'git@github.com:python/cpython.git' 'cpython'
