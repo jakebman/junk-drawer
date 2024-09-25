@@ -161,3 +161,6 @@ checkout = git clone --depth 1 'git@github.com:python/cpython.git' 'cpython'
 
 [pyenv-installer]
 checkout = git clone --depth 1 'git@github.com:pyenv/pyenv-installer.git' 'pyenv-installer'
+
+[Minikube-and-LetsEncrypt]
+checkout = git clone --depth 1 'git@github.com:klaushofrichter/Minikube-and-LetsEncrypt.git' 'Minikube-and-LetsEncrypt'
