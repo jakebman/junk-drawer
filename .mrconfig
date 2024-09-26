@@ -102,8 +102,8 @@ checkout = git clone --depth 1 'git@github.com:hibernate/hibernate-validator.git
 [protobuf-google]
 checkout = git clone --depth 1 'git@github.com:protocolbuffers/protobuf.git' 'protobuf-google'
 
-[initializr]
-checkout = git clone --depth 1 'git@github.com:spring-io/initializr.git' 'initializr'
+[spring-initializr]
+checkout = git clone --depth 1 'git@github.com:spring-io/initializr.git' 'spring-initializr'
 
 [wsl-docs]
 checkout = git clone --depth 1 'git@github.com:MicrosoftDocs/WSL.git' 'wsl-docs'
