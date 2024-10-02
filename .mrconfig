@@ -127,7 +127,17 @@ checkout = git clone --depth 1 'git@github.com:notepad-plus-plus/nppPluginList.g
 checkout = git clone --depth 1 'git@github.com:googleapis/googleapis.git' 'googleapis'
 
 [google-api-python-client]
-checkout = git clone --depth 1 'git@github.com:googleapis/google-api-python-client.git' 'google-api-python-client'
+# This repo has two *large* folders that I don't care to keep on disk.
+checkout = 
+	git clone --depth 1 --sparse 'git@github.com:googleapis/google-api-python-client.git' 'google-api-python-client'
+	cd google-api-python-client
+	# NB: the no-cone sparse checkout is deprecated. Unfortunately, I really want the "exclude just this one thing"
+	# behavior that is only available in non-cone land. Cone-land only lets you *include* ("include me, my siblings, and my children"), not *exclude*
+	git sparse-checkout init --no-cone
+	# clear out `clone --sparse`'s `!/*/` no-nested directories pattern.
+	# This is not strictly necessary (because we re-add `/*`), but it keeps everything clean.
+	cp /dev/null .git/info/sparse-checkout
+	git sparse-checkout add '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
 
 [vcsh]
 checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
