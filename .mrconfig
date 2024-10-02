@@ -130,7 +130,7 @@ checkout = git clone --depth 1 'git@github.com:googleapis/googleapis.git' 'googl
 # This repo has two *large* folders that I don't care to keep on disk.
 checkout = 
 	git clone --depth 1 --sparse 'git@github.com:googleapis/google-api-python-client.git' 'google-api-python-client'
-	cd google-api-python-client
+	cd 'google-api-python-client'
 	# NB: the no-cone sparse checkout is deprecated. Unfortunately, I really want the "exclude just this one thing"
 	# behavior that is only available in non-cone land. Cone-land only lets you *include* ("include me, my siblings, and my children"), not *exclude*
 	git sparse-checkout init --no-cone
