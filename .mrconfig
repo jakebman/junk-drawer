@@ -146,7 +146,14 @@ checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
 checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
 
 [session-manager-plugin-aws-cli]
-checkout = git clone --depth 1 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
+checkout =  # see google-api-python-client for sparse checkout info
+	git clone --depth 1 --sparse 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
+	cd 'session-manager-plugin-aws-cli'
+	git sparse-checkout init --no-cone
+	# clear out `clone --sparse`'s `!/*/` no-nested directories pattern.
+	# This is not strictly necessary (because we re-add `/*`), but it keeps everything clean.
+	cp /dev/null .git/info/sparse-checkout
+	git sparse-checkout add '/*' '!/vendor/src/github.com/aws'
 
 [aws-jungle]
 checkout = git clone --depth 1 'git@github.com:achiku/jungle.git' 'aws-jungle'
