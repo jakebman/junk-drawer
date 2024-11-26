@@ -182,3 +182,6 @@ checkout = git clone --depth 1 'git@github.com:pyenv/pyenv-installer.git' 'pyenv
 
 [Minikube-and-LetsEncrypt]
 checkout = git clone --depth 1 'git@github.com:klaushofrichter/Minikube-and-LetsEncrypt.git' 'Minikube-and-LetsEncrypt'
+
+[node]
+checkout = git clone --depth 1 'https://github.com/nodejs/node.git' 'node'
