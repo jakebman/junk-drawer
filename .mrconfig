@@ -79,8 +79,11 @@ checkout = git clone --depth 1 'https://salsa.debian.org/debian/mailcap.git' 'ma
 [maven]
 checkout = git clone --depth 1 'git@github.com:apache/maven.git' 'maven'
 
-[pre-commit-hooks]
-checkout = git clone --depth 1 'git@github.com:jumanjihouse/pre-commit-hooks.git' 'pre-commit-hooks'
+[hooks-pre-commit]
+# I call this "jungle tech" because I first used it for aws-jungle
+# renamed from [pre-commit-hooks]. Current checkout plan tries to get my work env to save a git clone.
+# TODO: remove this shim some time later.
+checkout = mv pre-commit-hooks hooks-pre-commit || git clone --depth 1 'git@github.com:jumanjihouse/pre-commit-hooks.git' 'hooks-pre-commit'
 
 [procps]
 checkout = git clone --depth 1 'git@gitlab.com:procps-ng/procps.git' 'procps'
