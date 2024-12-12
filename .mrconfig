@@ -191,3 +191,6 @@ checkout = git clone --depth 1 'https://github.com/nodejs/node.git' 'node'
 
 [ggshield]
 checkout = git clone --depth 1 'git@github.com:GitGuardian/ggshield.git' 'ggshield'
+
+[JsonPath]
+checkout = git clone --depth 1 'git@github.com:json-path/JsonPath.git' 'JsonPath'
