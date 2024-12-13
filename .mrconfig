@@ -194,3 +194,6 @@ checkout = git clone --depth 1 'git@github.com:GitGuardian/ggshield.git' 'ggshie
 
 [JsonPath]
 checkout = git clone --depth 1 'git@github.com:json-path/JsonPath.git' 'JsonPath'
+
+[curl]
+checkout = git clone --depth 1 'git@github.com:curl/curl.git' 'curl'
