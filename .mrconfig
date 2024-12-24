@@ -197,3 +197,6 @@ checkout = git clone --depth 1 'git@github.com:json-path/JsonPath.git' 'JsonPath
 
 [curl]
 checkout = git clone --depth 1 'git@github.com:curl/curl.git' 'curl'
+
+[ReZipDoc]
+checkout = git clone --depth 1 'git@github.com:hoijui/ReZipDoc.git' 'ReZipDoc'
