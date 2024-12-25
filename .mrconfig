@@ -200,3 +200,6 @@ checkout = git clone --depth 1 'git@github.com:curl/curl.git' 'curl'
 
 [ReZipDoc]
 checkout = git clone --depth 1 'git@github.com:hoijui/ReZipDoc.git' 'ReZipDoc'
+
+[wajig]
+checkout = git clone --depth 1 'git@github.com:gjwgit/wajig.git' 'wajig'
