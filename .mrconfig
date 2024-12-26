@@ -206,3 +206,6 @@ checkout = git clone --depth 1 'git@github.com:gjwgit/wajig.git' 'wajig'
 
 [cucumber-sublime-bundle]
 checkout = git clone --depth 1 'git@github.com:drewda/cucumber-sublime-bundle.git' 'cucumber-sublime-bundle'
+
+[aws-cli]
+checkout = git clone --depth 1 'git@github.com:aws/aws-cli.git' 'aws-cli'
