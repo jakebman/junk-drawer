@@ -209,3 +209,6 @@ checkout = git clone --depth 1 'git@github.com:drewda/cucumber-sublime-bundle.gi
 
 [aws-cli]
 checkout = git clone --depth 1 'git@github.com:aws/aws-cli.git' 'aws-cli'
+
+[glab-cli]
+checkout = git clone --depth 1 'git@gitlab.com:gitlab-org/cli.git' 'glab-cli'
