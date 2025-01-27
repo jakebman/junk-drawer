@@ -60,7 +60,9 @@ checkout = git clone --depth 1 'git@github.com:eth-p/bat-extras.git' 'extras-for
 checkout = git clone --depth 1 'git@github.com:junegunn/fzf.git' 'fzf'
 
 [git-extras]
+# NB: two remotes
 checkout = git clone --depth 1 'git@github.com:jakebman/git-extras.git' 'git-extras'
+post_checkout = cd 'git-extras' && git remote add upstream git@github.com:tj/git-extras.git
 
 [git-vendor]
 checkout = git clone --depth 1 'git@github.com:Tyrben/git-vendor.git' 'git-vendor'
@@ -144,7 +146,9 @@ checkout =
 	git sparse-checkout add '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
 
 [vcsh]
+# NB: two remotes
 checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
+post_checkout = cd 'vcsh' && git remote add upstream git@github.com:RichiH/vcsh.git
 
 [wslkit]
 checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
