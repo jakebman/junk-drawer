@@ -62,7 +62,10 @@ checkout = git clone --depth 1 'git@github.com:junegunn/fzf.git' 'fzf'
 [git-extras]
 # NB: two remotes
 checkout = git clone --depth 1 'git@github.com:jakebman/git-extras.git' 'git-extras'
-post_checkout = cd 'git-extras' && git remote add upstream git@github.com:tj/git-extras.git
+post_checkout = cd 'git-extras' &&
+	git remote add --no-tags -t main upstream git@github.com:tj/git-extras.git &&
+	git fetch --depth 1 upstream &&
+	git remote set-head upstream --auto
 
 [git-vendor]
 checkout = git clone --depth 1 'git@github.com:Tyrben/git-vendor.git' 'git-vendor'
@@ -148,7 +151,10 @@ checkout =
 [vcsh]
 # NB: two remotes
 checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
-post_checkout = cd 'vcsh' && git remote add upstream git@github.com:RichiH/vcsh.git
+post_checkout = cd 'vcsh' &&
+	git remote add --no-tags -t main upstream git@github.com:RichiH/vcsh.git &&
+	git fetch --depth 1 upstream &&
+	git remote set-head upstream --auto
 
 [wslkit]
 checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
