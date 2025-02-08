@@ -146,7 +146,7 @@ checkout =
 	git sparse-checkout add '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
 
 [node]
-checkout = git clone --depth 1 'https://github.com/nodejs/node.git' 'node'
+checkout = git clone --depth 1 'git@github.com:nodejs/node.git' 'node'
 
 [vcsh]
 # NB: two remotes
