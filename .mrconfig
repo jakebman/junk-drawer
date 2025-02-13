@@ -231,3 +231,6 @@ checkout = git clone --depth 1 'git@github.com:ghostty-org/ghostty.git' 'ghostty
 
 [git-command-listing-tests]
 checkout = git clone --depth 1 'git@github.com:jakebman/git-command-listing-tests.git' 'git-command-listing-tests'
+
+[manim]
+checkout = git clone --depth 1 'git@github.com:ManimCommunity/manim.git' 'manim'
