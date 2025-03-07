@@ -240,3 +240,6 @@ checkout = git clone --depth 1 'git@github.com:charmbracelet/glamour.git' 'glamo
 
 [glicol]
 checkout = git clone --depth 1 'git@github.com:chaosprint/glicol.git' 'glicol'
+
+[aws-do-eks]
+checkout = git clone --depth 1 'git@github.com:aws-samples/aws-do-eks.git' 'aws-do-eks'
