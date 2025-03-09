@@ -246,3 +246,6 @@ checkout = git clone --depth 1 'git@github.com:aws-samples/aws-do-eks.git' 'aws-
 
 [jdk]
 checkout = git clone --depth 1 'git@github.com:openjdk/jdk.git' 'jdk'
+
+[atuin]
+checkout = git clone --depth 1 'git@github.com:atuinsh/atuin.git' 'atuin'
