@@ -252,3 +252,6 @@ checkout = git clone --depth 1 'git@github.com:atuinsh/atuin.git' 'atuin'
 
 [fortunes-ubuntu-server]
 checkout = git clone --depth 1 'https://git.launchpad.net/ubuntu/+source/fortunes-ubuntu-server' 'fortunes-ubuntu-server'
+
+[bash-completion]
+checkout = git clone --depth 1 'git@github.com:scop/bash-completion.git' 'bash-completion'
