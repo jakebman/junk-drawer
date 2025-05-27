@@ -255,3 +255,6 @@ checkout = git clone --depth 1 'https://git.launchpad.net/ubuntu/+source/fortune
 
 [bash-completion]
 checkout = git clone --depth 1 'git@github.com:scop/bash-completion.git' 'bash-completion'
+
+[Runner]
+checkout = git clone --depth 1 'git@github.com:moneytoo/Runner.git' 'Runner'
