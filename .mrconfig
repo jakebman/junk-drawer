@@ -257,4 +257,8 @@ checkout = git clone --depth 1 'https://git.launchpad.net/ubuntu/+source/fortune
 checkout = git clone --depth 1 'git@github.com:scop/bash-completion.git' 'bash-completion'
 
 [Runner]
+# From a google search that also found these:
+# https://xdaforums.com/t/app-8-0-samsung-runner-update-deep-sleeping-apps.4506945/
+# https://techwiser.com/how-to-update-deep-sleeping-apps-on-samsung-galaxy-phone/
+# https://eu.community.samsung.com/t5/other-galaxy-s-series/query-deep-sleeping-apps/td-p/2813255
 checkout = git clone --depth 1 'git@github.com:moneytoo/Runner.git' 'Runner'
