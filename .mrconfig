@@ -262,3 +262,6 @@ checkout = git clone --depth 1 'git@github.com:scop/bash-completion.git' 'bash-c
 # https://techwiser.com/how-to-update-deep-sleeping-apps-on-samsung-galaxy-phone/
 # https://eu.community.samsung.com/t5/other-galaxy-s-series/query-deep-sleeping-apps/td-p/2813255
 checkout = git clone --depth 1 'git@github.com:moneytoo/Runner.git' 'Runner'
+
+[wisdom]
+checkout = git clone --depth 1 'git@github.com:merlinmann/wisdom.git' 'wisdom'
