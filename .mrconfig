@@ -265,3 +265,6 @@ checkout = git clone --depth 1 'git@github.com:moneytoo/Runner.git' 'Runner'
 
 [wisdom]
 checkout = git clone --depth 1 'git@github.com:merlinmann/wisdom.git' 'wisdom'
+
+[spectrum-web]
+checkout = git clone --depth 1 'git@gitlab.spectrumflow.net:spectrum-web/spectrum-web.git' 'spectrum-web'
