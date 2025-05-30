@@ -265,3 +265,6 @@ checkout = git clone --depth 1 'git@github.com:moneytoo/Runner.git' 'Runner'
 
 [wisdom]
 checkout = git clone --depth 1 'git@github.com:merlinmann/wisdom.git' 'wisdom'
+
+[ijq]
+checkout = git clone --depth 1 'https://codeberg.org/gpanders/ijq.git' 'ijq'
