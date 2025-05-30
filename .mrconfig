@@ -268,3 +268,6 @@ checkout = git clone --depth 1 'git@github.com:merlinmann/wisdom.git' 'wisdom'
 
 [spectrum-web]
 checkout = git clone --depth 1 'git@gitlab.spectrumflow.net:spectrum-web/spectrum-web.git' 'spectrum-web'
+
+[ijq]
+checkout = git clone --depth 1 'https://codeberg.org/gpanders/ijq.git' 'ijq'
