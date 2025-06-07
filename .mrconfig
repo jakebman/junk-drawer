@@ -268,3 +268,7 @@ checkout = git clone --depth 1 'git@github.com:merlinmann/wisdom.git' 'wisdom'
 
 [ijq]
 checkout = git clone --depth 1 'https://codeberg.org/gpanders/ijq.git' 'ijq'
+
+[starred-as-mr]
+chain = true
+checkout = git clone --depth 1 'git@github.com:jakebman/starred-as-mr.git' 'starred-as-mr'
