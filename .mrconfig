@@ -269,6 +269,9 @@ checkout = git clone --depth 1 'git@github.com:merlinmann/wisdom.git' 'wisdom'
 [ijq]
 checkout = git clone --depth 1 'https://codeberg.org/gpanders/ijq.git' 'ijq'
 
+# TODO: even adding make to the git clone command doesn't allow an immediate chaining.
+# What's up with that?
 [starred-as-mr]
 chain = true
-checkout = git clone --depth 1 'git@github.com:jakebman/starred-as-mr.git' 'starred-as-mr'
+checkout = git clone --depth 1 'git@github.com:jakebman/starred-as-mr.git' 'starred-as-mr' # && ( cd starred-as-mr; make )
+# update = git mr-pull && make
