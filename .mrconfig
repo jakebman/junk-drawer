@@ -26,6 +26,9 @@ git_register =
 # https://vim.fandom.com/wiki/Regex_lookahead_and_lookbehind
 # :%s/git clone\zs\ze '/ --depth 1/g
 
+[spectrum-web]
+checkout = git clone --depth 1 'git@gitlab.spectrumflow.net:spectrum-web/spectrum-web.git' 'spectrum-web'
+
 [git]
 checkout = git clone --depth 1 'git@github.com:git/git.git' 'git'
 
