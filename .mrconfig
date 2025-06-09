@@ -145,15 +145,6 @@ checkout =
 	cp /dev/null .git/info/sparse-checkout
 	git sparse-checkout add '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
 
-[node]
-# Remove *large* (~500MB) deps folder. See google-api-python-client
-checkout = 
-	git clone --depth 1 --sparse 'git@github.com:nodejs/node.git' 'node'
-	cd 'node'
-	git sparse-checkout init --no-cone
-	cp /dev/null .git/info/sparse-checkout
-	git sparse-checkout add '/*' '!/deps'
-
 [vcsh]
 # NB: two remotes
 checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
@@ -243,9 +234,6 @@ checkout = git clone --depth 1 'git@github.com:chaosprint/glicol.git' 'glicol'
 
 [aws-do-eks]
 checkout = git clone --depth 1 'git@github.com:aws-samples/aws-do-eks.git' 'aws-do-eks'
-
-[jdk]
-checkout = git clone --depth 1 'git@github.com:openjdk/jdk.git' 'jdk'
 
 [atuin]
 checkout = git clone --depth 1 'git@github.com:atuinsh/atuin.git' 'atuin'
