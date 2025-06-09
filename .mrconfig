@@ -147,6 +147,7 @@ checkout =
 
 [node]
 # Remove *large* (~500MB) deps folder. See google-api-python-client
+skip = lazy # or it's okay if you just delete the whole thing!
 checkout = 
 	git clone --depth 1 --sparse 'git@github.com:nodejs/node.git' 'node'
 	cd 'node'
@@ -245,6 +246,7 @@ checkout = git clone --depth 1 'git@github.com:chaosprint/glicol.git' 'glicol'
 checkout = git clone --depth 1 'git@github.com:aws-samples/aws-do-eks.git' 'aws-do-eks'
 
 [jdk]
+skip = lazy # it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:openjdk/jdk.git' 'jdk'
 
 [atuin]
