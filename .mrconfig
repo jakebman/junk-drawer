@@ -277,3 +277,6 @@ checkout = git clone --depth 1 'https://codeberg.org/gpanders/ijq.git' 'ijq'
 chain = true
 checkout = git clone --depth 1 'git@github.com:jakebman/starred-as-mr.git' 'starred-as-mr' # && ( cd starred-as-mr; make )
 # update = git mr-pull && make
+
+[dockerfile-maven]
+checkout = git clone --depth 1 'git@github.com:spotify/dockerfile-maven.git' 'dockerfile-maven'
