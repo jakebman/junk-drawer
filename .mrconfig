@@ -38,6 +38,7 @@ checkout = git clone --depth 1 'git@github.com:microsoft/devhome.git' 'devhome'
 checkout = git clone --depth 1 'git@github.com:secretGeek/today-i-learned-staging.git' 'TIL-secretgeek'
 
 [baeldung-tutorials]
+skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:eugenp/tutorials.git' 'baeldung-tutorials'
 
 # NB: only the members of this group have ssh access. See https://savannah.gnu.org/git/?group=bash
