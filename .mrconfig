@@ -133,6 +133,7 @@ checkout = git clone --depth 1 'git@github.com:notepad-plus-plus/nppPluginList.g
 checkout = git clone --depth 1 'git@github.com:googleapis/googleapis.git' 'googleapis'
 
 [google-api-python-client]
+skip = lazy # or it's okay if you just delete the whole thing!
 # This repo has two *large* folders that I don't care to keep on disk.
 checkout = 
 	git clone --depth 1 --sparse 'git@github.com:googleapis/google-api-python-client.git' 'google-api-python-client'
