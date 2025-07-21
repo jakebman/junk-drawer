@@ -6,3 +6,4 @@
 #  automatically un-ignored as well)
 !*
 /*/
+update-log.*
