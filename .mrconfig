@@ -1,4 +1,5 @@
 [DEFAULT]
+skip = lazy # or it's okay if you just delete any of these!
 git_update = 
 	if test -n "$UPDATE_JUNK_DRAWER"; then
 		export GIT_PAGER=cat # easier than applying --no-pager to all following git commands
@@ -32,14 +33,12 @@ checkout = git clone --depth 1 'git@github.com:git/git.git' 'git'
 checkout = git clone --depth 1 'git@github.com:spring-projects/spring-framework.git' 'spring-framework'
 
 [devhome]
-skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:microsoft/devhome.git' 'devhome'
 
 [TIL-secretgeek]
 checkout = git clone --depth 1 'git@github.com:secretGeek/today-i-learned-staging.git' 'TIL-secretgeek'
 
 [baeldung-tutorials]
-skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:eugenp/tutorials.git' 'baeldung-tutorials'
 
 # NB: only the members of this group have ssh access. See https://savannah.gnu.org/git/?group=bash
@@ -96,7 +95,6 @@ checkout = git clone --depth 1 'git@gitlab.com:procps-ng/procps.git' 'procps'
 checkout = git clone --depth 1 'git@github.com:sdkman/sdkman-website.git' 'sdkman-website'
 
 [terminal]
-skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:microsoft/terminal.git' 'terminal'
 
 [AntennaPod]
@@ -115,7 +113,6 @@ checkout = git clone --depth 1 'git@github.com:protocolbuffers/protobuf.git' 'pr
 checkout = git clone --depth 1 'git@github.com:spring-io/initializr.git' 'spring-initializr'
 
 [wsl-docs]
-skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:MicrosoftDocs/WSL.git' 'wsl-docs'
 
 [wsl]
@@ -134,11 +131,9 @@ checkout = git clone --depth 1 'git@github.com:arxanas/git-branchless.git' 'git-
 checkout = git clone --depth 1 'git@github.com:notepad-plus-plus/nppPluginList.git' 'nppPluginList'
 
 [googleapis]
-skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:googleapis/googleapis.git' 'googleapis'
 
 [google-api-python-client]
-skip = lazy # or it's okay if you just delete the whole thing!
 # This repo has two *large* folders that I don't care to keep on disk.
 checkout = 
 	git clone --depth 1 --sparse 'git@github.com:googleapis/google-api-python-client.git' 'google-api-python-client'
@@ -152,7 +147,6 @@ checkout =
 	git sparse-checkout add '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
 
 [node]
-skip = lazy # or it's okay if you just delete the whole thing!
 # Remove *large* (~500MB) deps folder. See google-api-python-client
 checkout = 
 	git clone --depth 1 --sparse 'git@github.com:nodejs/node.git' 'node'
@@ -173,7 +167,6 @@ post_checkout = cd 'vcsh' &&
 checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
 
 [session-manager-plugin-aws-cli]
-skip = lazy # or it's okay if you just delete the whole thing!
 checkout =  # see google-api-python-client for sparse checkout info
 	git clone --depth 1 --sparse 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
 	cd 'session-manager-plugin-aws-cli'
@@ -202,7 +195,6 @@ checkout = git clone --depth 1 'git@github.com:asdf-vm/asdf.git' 'asdf'
 checkout = git clone --depth 1 'git@github.com:docker/awesome-compose.git' 'awesome-compose'
 
 [cpython]
-skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:python/cpython.git' 'cpython'
 
 [pyenv-installer]
@@ -254,7 +246,6 @@ checkout = git clone --depth 1 'git@github.com:chaosprint/glicol.git' 'glicol'
 checkout = git clone --depth 1 'git@github.com:aws-samples/aws-do-eks.git' 'aws-do-eks'
 
 [jdk]
-skip = lazy # it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:openjdk/jdk.git' 'jdk'
 
 [atuin]
