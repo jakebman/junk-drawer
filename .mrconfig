@@ -169,6 +169,7 @@ post_checkout = cd 'vcsh' &&
 checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
 
 [session-manager-plugin-aws-cli]
+skip = lazy # or it's okay if you just delete the whole thing!
 checkout =  # see google-api-python-client for sparse checkout info
 	git clone --depth 1 --sparse 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
 	cd 'session-manager-plugin-aws-cli'
