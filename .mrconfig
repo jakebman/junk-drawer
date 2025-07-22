@@ -32,6 +32,7 @@ checkout = git clone --depth 1 'git@github.com:git/git.git' 'git'
 checkout = git clone --depth 1 'git@github.com:spring-projects/spring-framework.git' 'spring-framework'
 
 [devhome]
+skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:microsoft/devhome.git' 'devhome'
 
 [TIL-secretgeek]
@@ -95,6 +96,7 @@ checkout = git clone --depth 1 'git@gitlab.com:procps-ng/procps.git' 'procps'
 checkout = git clone --depth 1 'git@github.com:sdkman/sdkman-website.git' 'sdkman-website'
 
 [terminal]
+skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:microsoft/terminal.git' 'terminal'
 
 [AntennaPod]
@@ -113,6 +115,7 @@ checkout = git clone --depth 1 'git@github.com:protocolbuffers/protobuf.git' 'pr
 checkout = git clone --depth 1 'git@github.com:spring-io/initializr.git' 'spring-initializr'
 
 [wsl-docs]
+skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:MicrosoftDocs/WSL.git' 'wsl-docs'
 
 [wsl]
@@ -131,6 +134,7 @@ checkout = git clone --depth 1 'git@github.com:arxanas/git-branchless.git' 'git-
 checkout = git clone --depth 1 'git@github.com:notepad-plus-plus/nppPluginList.git' 'nppPluginList'
 
 [googleapis]
+skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:googleapis/googleapis.git' 'googleapis'
 
 [google-api-python-client]
@@ -198,6 +202,7 @@ checkout = git clone --depth 1 'git@github.com:asdf-vm/asdf.git' 'asdf'
 checkout = git clone --depth 1 'git@github.com:docker/awesome-compose.git' 'awesome-compose'
 
 [cpython]
+skip = lazy # or it's okay if you just delete the whole thing!
 checkout = git clone --depth 1 'git@github.com:python/cpython.git' 'cpython'
 
 [pyenv-installer]
