@@ -148,8 +148,8 @@ checkout =
 	git sparse-checkout add '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
 
 [node]
-# Remove *large* (~500MB) deps folder. See google-api-python-client
 skip = lazy # or it's okay if you just delete the whole thing!
+# Remove *large* (~500MB) deps folder. See google-api-python-client
 checkout = 
 	git clone --depth 1 --sparse 'git@github.com:nodejs/node.git' 'node'
 	cd 'node'
