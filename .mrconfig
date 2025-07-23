@@ -279,3 +279,6 @@ checkout = git clone --depth 1 'git@github.com:jakebman/starred-as-mr.git' 'star
 
 [dockerfile-maven]
 checkout = git clone --depth 1 'git@github.com:spotify/dockerfile-maven.git' 'dockerfile-maven'
+
+[git-flight-rules]
+checkout = git clone --depth 1 'git@github.com:k88hudson/git-flight-rules.git' 'git-flight-rules'
