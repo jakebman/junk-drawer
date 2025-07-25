@@ -282,3 +282,6 @@ checkout = git clone --depth 1 'git@github.com:spotify/dockerfile-maven.git' 'do
 
 [git-flight-rules]
 checkout = git clone --depth 1 'git@github.com:k88hudson/git-flight-rules.git' 'git-flight-rules'
+
+[jarviz]
+checkout = git clone --depth 1 'git@github.com:kordamp/jarviz.git' 'jarviz'
