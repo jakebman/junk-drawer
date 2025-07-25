@@ -285,3 +285,6 @@ checkout = git clone --depth 1 'git@github.com:k88hudson/git-flight-rules.git' '
 
 [jarviz]
 checkout = git clone --depth 1 'git@github.com:kordamp/jarviz.git' 'jarviz'
+
+[java-update-ca-certificates]
+checkout = git clone --depth 1 'git@github.com:inetum-orleans/java-update-ca-certificates.git' 'java-update-ca-certificates'
