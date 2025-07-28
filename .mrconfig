@@ -145,6 +145,11 @@ fixups = git sparse-checkout set --no-cone '/*' '!/docs/dyn' '!/googleapiclient/
 checkout = git clone --depth 1 --sparse 'git@github.com:nodejs/node.git' 'node'
 fixups = git sparse-checkout set --no-cone '/*' '!/deps'
 
+[session-manager-plugin-aws-cli]
+# see google-api-python-client for sparse checkout info
+checkout = git clone --depth 1 --sparse 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
+fixups = git sparse-checkout set --no-cone '/*' '!/vendor/src/github.com/aws'
+
 [vcsh]
 # NB: two remotes
 checkout = git clone --depth 1 'git@github.com:jakebman/vcsh.git' 'vcsh'
@@ -155,11 +160,6 @@ post_checkout = cd 'vcsh' &&
 
 [wslkit]
 checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
-
-[session-manager-plugin-aws-cli]
-# see google-api-python-client for sparse checkout info
-checkout = git clone --depth 1 --sparse 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
-fixups = git sparse-checkout set --no-cone '/*' '!/vendor/src/github.com/aws'
 
 [aws-jungle]
 checkout = git clone --depth 1 'git@github.com:achiku/jungle.git' 'aws-jungle'
