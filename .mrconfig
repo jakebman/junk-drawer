@@ -140,20 +140,14 @@ checkout =
 	cd 'google-api-python-client'
 	# NB: the no-cone sparse checkout is deprecated. Unfortunately, I really want the "exclude just this one thing"
 	# behavior that is only available in non-cone land. Cone-land only lets you *include* ("include me, my siblings, and my children"), not *exclude*
-	git sparse-checkout init --no-cone
-	# clear out `clone --sparse`'s `!/*/` no-nested directories pattern.
-	# This is not strictly necessary (because we re-add `/*`), but it keeps everything clean.
-	cp /dev/null .git/info/sparse-checkout
-	git sparse-checkout add '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
+	git sparse-checkout set --no-cone '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
 
 [node]
 # Remove *large* (~500MB) deps folder. See google-api-python-client
 checkout = 
 	git clone --depth 1 --sparse 'git@github.com:nodejs/node.git' 'node'
 	cd 'node'
-	git sparse-checkout init --no-cone
-	cp /dev/null .git/info/sparse-checkout
-	git sparse-checkout add '/*' '!/deps'
+	git sparse-checkout set --no-cone '/*' '!/deps'
 
 [vcsh]
 # NB: two remotes
@@ -170,11 +164,7 @@ checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
 checkout =  # see google-api-python-client for sparse checkout info
 	git clone --depth 1 --sparse 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
 	cd 'session-manager-plugin-aws-cli'
-	git sparse-checkout init --no-cone
-	# clear out `clone --sparse`'s `!/*/` no-nested directories pattern.
-	# This is not strictly necessary (because we re-add `/*`), but it keeps everything clean.
-	cp /dev/null .git/info/sparse-checkout
-	git sparse-checkout add '/*' '!/vendor/src/github.com/aws'
+	git sparse-checkout set --no-cone '/*' '!/vendor/src/github.com/aws'
 
 [aws-jungle]
 checkout = git clone --depth 1 'git@github.com:achiku/jungle.git' 'aws-jungle'
