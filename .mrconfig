@@ -135,19 +135,15 @@ checkout = git clone --depth 1 'git@github.com:googleapis/googleapis.git' 'googl
 
 [google-api-python-client]
 # This repo has two *large* folders that I don't care to keep on disk.
-checkout = 
-	git clone --depth 1 --sparse 'git@github.com:googleapis/google-api-python-client.git' 'google-api-python-client'
-	cd 'google-api-python-client'
-	# NB: the no-cone sparse checkout is deprecated. Unfortunately, I really want the "exclude just this one thing"
-	# behavior that is only available in non-cone land. Cone-land only lets you *include* ("include me, my siblings, and my children"), not *exclude*
-	git sparse-checkout set --no-cone '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
+checkout = git clone --depth 1 --sparse 'git@github.com:googleapis/google-api-python-client.git' 'google-api-python-client'
+# NB: the no-cone sparse checkout is deprecated. Unfortunately, I really want the "exclude just this one thing"
+# behavior that is only available in non-cone land. Cone-land only lets you *include* ("include me, my siblings, and my children"), not *exclude*
+fixups = git sparse-checkout set --no-cone '/*' '!/docs/dyn' '!/googleapiclient/discovery_cache/documents'
 
 [node]
 # Remove *large* (~500MB) deps folder. See google-api-python-client
-checkout = 
-	git clone --depth 1 --sparse 'git@github.com:nodejs/node.git' 'node'
-	cd 'node'
-	git sparse-checkout set --no-cone '/*' '!/deps'
+checkout = git clone --depth 1 --sparse 'git@github.com:nodejs/node.git' 'node'
+fixups = git sparse-checkout set --no-cone '/*' '!/deps'
 
 [vcsh]
 # NB: two remotes
@@ -161,10 +157,9 @@ post_checkout = cd 'vcsh' &&
 checkout = git clone --depth 1 'git@github.com:albertony/wslkit.git' 'wslkit'
 
 [session-manager-plugin-aws-cli]
-checkout =  # see google-api-python-client for sparse checkout info
-	git clone --depth 1 --sparse 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
-	cd 'session-manager-plugin-aws-cli'
-	git sparse-checkout set --no-cone '/*' '!/vendor/src/github.com/aws'
+# see google-api-python-client for sparse checkout info
+checkout = git clone --depth 1 --sparse 'git@github.com:aws/session-manager-plugin.git' 'session-manager-plugin-aws-cli'
+fixups = git sparse-checkout set --no-cone '/*' '!/vendor/src/github.com/aws'
 
 [aws-jungle]
 checkout = git clone --depth 1 'git@github.com:achiku/jungle.git' 'aws-jungle'
