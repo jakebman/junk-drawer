@@ -1,5 +1,9 @@
 [DEFAULT]
-skip = lazy # or it's okay if you just delete any of these!
+unskip_default = echo tryting to unsip "$@"
+git_unskip = echo unskip git "$@" in $PWD
+# It's okay to skip any repo that doesn't exist (lazy), but we want an exception for the unskip action
+skip = lazy && echo skipping "$@" in $MR_REPO >>~/foo/mr-log && [ unskip != "$1" ]
+pre_unskip = mkdir -p "$MR_REPO"
 git_update = 
 	if test -n "$UPDATE_JUNK_DRAWER"; then
 		export GIT_PAGER=cat # easier than applying --no-pager to all following git commands
