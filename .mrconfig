@@ -1,5 +1,9 @@
 [DEFAULT]
-skip = lazy # or it's okay if you just delete any of these!
+# None of these *need* to be checked out at any point
+# Use this command to un-skip any of them
+# mr --force -d foo checkout
+skip = lazy
+
 git_update = 
 	if test -n "$UPDATE_JUNK_DRAWER"; then
 		export GIT_PAGER=cat # easier than applying --no-pager to all following git commands
