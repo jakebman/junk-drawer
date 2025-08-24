@@ -12,6 +12,8 @@ git_update =
 		echo "Junk Drawer: Skipping junk drawer project."
 	fi
 
+git_fetch = git fetch --no-tags --depth 1
+
 # NB: taken directly from mr itself. Modified to add `--depth 1`
 # TODO: does --no-tags make sense?
 # TODO: can I use mr's git_register_append instead? It would make this a little cleaner
