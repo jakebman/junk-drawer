@@ -289,3 +289,6 @@ checkout = git clone --depth 1 'git@github.com:inetum-orleans/java-update-ca-cer
 [ca-certificates-java]
 # Cloning this via ssh at git@salsa.debian.org:java-team/ca-certificates-java.git isn't viable - I don't have access right now
 checkout = git clone --depth 1 'https://salsa.debian.org/java-team/ca-certificates-java.git' 'ca-certificates-java'
+
+[flavor-bible]
+checkout = git clone --depth 1 'git@github.com:areeves87/Flavor-Bible-App.git' 'flavor-bible'
