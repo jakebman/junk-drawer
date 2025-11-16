@@ -292,3 +292,6 @@ checkout = git clone --depth 1 'https://salsa.debian.org/java-team/ca-certificat
 
 [flavor-bible]
 checkout = git clone --depth 1 'git@github.com:areeves87/Flavor-Bible-App.git' 'flavor-bible'
+
+[git-blame-someone-else]
+checkout = git clone --depth 1 'https://github.com/jayphelps/git-blame-someone-else.git' 'git-blame-someone-else'
