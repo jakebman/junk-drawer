@@ -295,3 +295,6 @@ checkout = git clone --depth 1 'git@github.com:areeves87/Flavor-Bible-App.git' '
 
 [git-blame-someone-else]
 checkout = git clone --depth 1 'https://github.com/jayphelps/git-blame-someone-else.git' 'git-blame-someone-else'
+
+[vim-polyglot]
+checkout = git clone --depth 1 'git@github.com:sheerun/vim-polyglot.git' 'vim-polyglot'
