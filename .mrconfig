@@ -278,7 +278,8 @@ checkout = git clone --depth 1 'git@github.com:jakebman/starred-as-mr.git' 'star
 checkout = git clone --depth 1 'git@github.com:spotify/dockerfile-maven.git' 'dockerfile-maven'
 
 [git-flight-rules]
-checkout = git clone --depth 1 'git@github.com:k88hudson/git-flight-rules.git' 'git-flight-rules'
+# this is small enough (1MB) that it doesn't need to be shallow
+checkout = git clone 'git@github.com:k88hudson/git-flight-rules.git' 'git-flight-rules'
 
 [jarviz]
 checkout = git clone --depth 1 'git@github.com:kordamp/jarviz.git' 'jarviz'
