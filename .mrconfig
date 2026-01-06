@@ -299,3 +299,6 @@ checkout = git clone --depth 1 'https://github.com/jayphelps/git-blame-someone-e
 
 [vim-polyglot]
 checkout = git clone --depth 1 'git@github.com:sheerun/vim-polyglot.git' 'vim-polyglot'
+
+[vim]
+checkout = git clone --depth 1 'git@github.com:vim/vim.git' 'vim'
