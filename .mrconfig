@@ -305,3 +305,6 @@ checkout = git clone --depth 1 'git@github.com:vim/vim.git' 'vim'
 
 [figlet]
 checkout = git clone --depth 1 'git@github.com:Sepatu-Bot/figlet.git' 'figlet'
+
+[eks-workshop-v2]
+checkout = git clone --depth 1 'git@github.com:aws-samples/eks-workshop-v2.git' 'eks-workshop-v2'
