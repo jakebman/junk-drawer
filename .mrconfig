@@ -302,3 +302,6 @@ checkout = git clone --depth 1 'git@github.com:sheerun/vim-polyglot.git' 'vim-po
 
 [vim]
 checkout = git clone --depth 1 'git@github.com:vim/vim.git' 'vim'
+
+[figlet]
+checkout = git clone --depth 1 'git@github.com:Sepatu-Bot/figlet.git' 'figlet'
