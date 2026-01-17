@@ -74,10 +74,10 @@ checkout = git clone --depth 1 'git@github.com:junegunn/fzf.git' 'fzf'
 
 [git-extras]
 # NB: two remotes
-checkout = git clone --depth 1 'git@github.com:jakebman/git-extras.git' 'git-extras'
+checkout = git clone 'git@github.com:jakebman/git-extras.git' 'git-extras'
 post_checkout = cd 'git-extras' &&
 	git remote add --no-tags -t main upstream git@github.com:tj/git-extras.git &&
-	git fetch --depth 1 upstream &&
+	git fetch upstream &&
 	git remote set-head upstream --auto
 
 [git-vendor]
