@@ -309,3 +309,6 @@ checkout = git clone --depth 1 'git@github.com:Sepatu-Bot/figlet.git' 'figlet'
 
 [eks-workshop-v2]
 checkout = git clone --depth 1 'git@github.com:aws-samples/eks-workshop-v2.git' 'eks-workshop-v2'
+
+[hexagonal-architecture-java-springboot]
+checkout = git clone --depth 1 'git@gitlab.com:beyondxscratch/hexagonal-architecture-java-springboot.git' 'hexagonal-architecture-java-springboot'
