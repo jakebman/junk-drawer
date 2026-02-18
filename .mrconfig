@@ -312,3 +312,11 @@ checkout = git clone --depth 1 'git@github.com:aws-samples/eks-workshop-v2.git' 
 
 [hexagonal-architecture-java-springboot]
 checkout = git clone --depth 1 'git@gitlab.com:beyondxscratch/hexagonal-architecture-java-springboot.git' 'hexagonal-architecture-java-springboot'
+
+[q-cli]
+# deprecated
+checkout = git clone --depth 1 'git@github.com:aws/amazon-q-developer-cli.git' 'q-cli'
+
+[kiro-cli]
+# not an open source tool :(
+checkout = git clone --depth 1 'git@github.com:kirodotdev/Kiro.git' 'kiro-cli'
