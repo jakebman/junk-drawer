@@ -320,3 +320,6 @@ checkout = git clone --depth 1 'git@github.com:aws/amazon-q-developer-cli.git' '
 [kiro-cli]
 # not an open source tool :(
 checkout = git clone --depth 1 'git@github.com:kirodotdev/Kiro.git' 'kiro-cli'
+
+[international-obfuscated-c-code-contest-winnners]
+checkout = git clone --depth 1 'git@github.com:ioccc-src/winner.git' 'international-obfuscated-c-code-contest-winnners'
