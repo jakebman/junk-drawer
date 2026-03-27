@@ -326,3 +326,6 @@ checkout = git clone --depth 1 'git@github.com:ioccc-src/winner.git' 'internatio
 
 [docker-images-for-maven]
 checkout = git clone --depth 1 'git@github.com:carlossg/docker-maven.git' 'docker-images-for-maven'
+
+[netty]
+checkout = git clone --depth 1 'git@github.com:netty/netty.git' 'netty'
