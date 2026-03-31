@@ -329,3 +329,6 @@ checkout = git clone --depth 1 'git@github.com:carlossg/docker-maven.git' 'docke
 
 [netty]
 checkout = git clone --depth 1 'git@github.com:netty/netty.git' 'netty'
+
+[Java-Hello-World-Enterprise-Edition]
+checkout = git clone --depth 1 'git@github.com:Hello-World-EE/Java-Hello-World-Enterprise-Edition.git' 'Java-Hello-World-Enterprise-Edition'
