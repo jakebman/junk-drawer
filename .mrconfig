@@ -104,6 +104,9 @@ checkout = git clone --depth 1 'git@github.com:jumanjihouse/pre-commit-hooks.git
 [procps]
 checkout = git clone --depth 1 'git@gitlab.com:procps-ng/procps.git' 'procps'
 
+[sdkman-cli]
+checkout = git clone --depth 1 'git@github.com:sdkman/sdkman-cli.git' 'sdkman-cli'
+
 [sdkman-website]
 checkout = git clone --depth 1 'git@github.com:sdkman/sdkman-website.git' 'sdkman-website'
 
