@@ -338,3 +338,6 @@ checkout = git clone --depth 1 'git@github.com:Hello-World-EE/Java-Hello-World-E
 
 [semver-tool]
 checkout = git clone --depth 1 'git@github.com:fsaintjacques/semver-tool.git' 'semver-tool'
+
+[rancher-cli]
+checkout = git clone --depth 1 'git@github.com:rancher/cli.git' 'rancher-cli'
