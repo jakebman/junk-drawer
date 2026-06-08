@@ -347,3 +347,6 @@ checkout = git clone --depth 1 'https://git.tartarus.org/simon/puzzles.git' 'puz
 
 [simon]
 checkout = git clone --depth 1 'git@github.com:jakebman/simon.git' 'simon'
+
+[protobuf-maven-plugin]
+checkout = git clone --depth 1 'git@github.com:ascopes/protobuf-maven-plugin.git' 'protobuf-maven-plugin'
