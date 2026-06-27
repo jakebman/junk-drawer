@@ -353,3 +353,6 @@ checkout = git clone --depth 1 'git@github.com:ascopes/protobuf-maven-plugin.git
 
 [OpenSuperWhisper]
 checkout = git clone --depth 1 'git@github.com:Starmel/OpenSuperWhisper.git' 'OpenSuperWhisper'
+
+[LaserGRBL]
+checkout = git clone --depth 1 'https://github.com/arkypita/LaserGRBL.git' 'LaserGRBL'
