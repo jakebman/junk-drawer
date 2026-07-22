@@ -356,3 +356,6 @@ checkout = git clone --depth 1 'git@github.com:Starmel/OpenSuperWhisper.git' 'Op
 
 [LaserGRBL]
 checkout = git clone --depth 1 'https://github.com/arkypita/LaserGRBL.git' 'LaserGRBL'
+
+[aws-agent-toolkit]
+checkout = git clone --depth 1 'git@github.com:aws/agent-toolkit-for-aws.git' 'aws-agent-toolkit'
