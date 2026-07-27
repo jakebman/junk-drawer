@@ -359,3 +359,6 @@ checkout = git clone --depth 1 'https://github.com/arkypita/LaserGRBL.git' 'Lase
 
 [aws-agent-toolkit]
 checkout = git clone --depth 1 'git@github.com:aws/agent-toolkit-for-aws.git' 'aws-agent-toolkit'
+
+[sdkman-cli-native]
+checkout = git clone --depth 1 'git@github.com:sdkman/sdkman-cli-native.git' 'sdkman-cli-native'
