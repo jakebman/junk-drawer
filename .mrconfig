@@ -362,3 +362,6 @@ checkout = git clone --depth 1 'git@github.com:aws/agent-toolkit-for-aws.git' 'a
 
 [sdkman-cli-native]
 checkout = git clone --depth 1 'git@github.com:sdkman/sdkman-cli-native.git' 'sdkman-cli-native'
+
+[valkeyway]
+checkout = git clone --depth 1 'git@github.com:nslootsky/valkeyway.git' 'valkeyway'
