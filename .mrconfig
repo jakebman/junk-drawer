@@ -55,7 +55,7 @@ checkout = git clone --depth 1 'git@github.com:eugenp/tutorials.git' 'baeldung-t
 
 # NB: only the members of this group have ssh access. See https://savannah.gnu.org/git/?group=bash
 [bash]
-checkout = git clone --depth 1 'https://git.savannah.gnu.org/git/bash.git' 'bash'
+checkout = git clone --depth 1 'https://https.git.savannah.gnu.org/git/bash.git' 'bash'
 
 [bat]
 checkout = git clone --depth 1 'git@github.com:sharkdp/bat.git' 'bat'
