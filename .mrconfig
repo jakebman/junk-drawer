@@ -368,3 +368,6 @@ checkout = git clone --depth 1 'git@github.com:sdkman/sdkman-cli-native.git' 'sd
 
 [valkeyway]
 checkout = git clone --depth 1 'git@github.com:nslootsky/valkeyway.git' 'valkeyway'
+
+[pfetch]
+checkout = git clone --depth 1 'git@github.com:dylanaraps/pfetch.git' 'pfetch'
