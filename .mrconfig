@@ -371,3 +371,7 @@ checkout = git clone --depth 1 'git@github.com:nslootsky/valkeyway.git' 'valkeyw
 
 [pfetch]
 checkout = git clone --depth 1 'git@github.com:dylanaraps/pfetch.git' 'pfetch'
+
+[wslu]
+# This originally lived at github.com/wslutilities/wslu, which has been removed
+checkout = git clone --depth 1 'https://git.launchpad.net/wslu' 'wslu'
