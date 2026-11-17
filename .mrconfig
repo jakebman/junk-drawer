@@ -375,3 +375,6 @@ checkout = git clone --depth 1 'git@github.com:dylanaraps/pfetch.git' 'pfetch'
 [wslu]
 # This originally lived at github.com/wslutilities/wslu, which has been removed
 checkout = git clone --depth 1 'https://git.launchpad.net/wslu' 'wslu'
+
+[threat-dragon]
+checkout = git clone --depth 1 'git@github.com:OWASP/threat-dragon.git' 'threat-dragon'
